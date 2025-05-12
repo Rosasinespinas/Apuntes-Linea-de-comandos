@@ -4,6 +4,7 @@
 
 * Usar el comando jq -r y luego entre comillas simples '.nombrearray.dato'
 * Esto nos da el resultado del dato.
+  
 Con -r le quito las comillas.
 Ejemplo:
 
