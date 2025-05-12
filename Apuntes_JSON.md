@@ -1,6 +1,6 @@
 # Apuntes de JSON
 
-##Obtener un valor de un JSON
+## Obtener un valor de un JSON
 
 * Usar el comando jq -r y luego entre comillas simples '.nombrearray.dato'
 * Esto nos da el resultado del dato.
@@ -11,7 +11,7 @@ Ejemplo:
 bitcoin-cli getblockchaininfo | jq -r '.blocks'
 ```
 
-##Obtener varios datos en un array
+## Obtener varios datos en un array
 
 * Para obtener todos los valores utiliza [] .
 Ejemplo:
@@ -29,7 +29,7 @@ echo ${amount[0]}
 
 Así obtendré el monto del primer UTXO.
 
-##Escribir un JSON
+## Escribir un JSON
 
 * Primero construimos los arrays pequeños usando --arg
 
