@@ -119,7 +119,7 @@ Podemos minar unos Bitcoin en Regtest para ver los saldos de Alice y Multi para 
 
 ## Solucion
 
-[Solucion](/solucion.sh)
+[Solucion](/Multifirma/solucion.sh)
 
 ## Conclusion
 Con este tutorial hemos aprendido:
